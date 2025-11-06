@@ -1,5 +1,5 @@
 {
-  "title": "vCluster 101",
+  "title": "v101 - vCluster Basics",
   "description": "Welcome to vCluster 101! In this lab, you will learn how to create and manage virtual clusters using vCluster.",
   "details": {
     "intro": {
@@ -7,17 +7,17 @@
     },
     "steps": [
       {
-        "title": "Install vCluster CLI",
+        "title": "Install vCluster CLI and Kubectx",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
       },
       {
-        "title": "Create a vCluster",
+        "title": "Deploy a vCluster",
         "text": "step2/text.md",
         "verify": "step2/verify.sh"
       },
       {
-        "title": "Create a Pod in vCluster",
+        "title": "Crete a Pod in vCluster",
         "text": "step3/text.md",
         "verify": "step3/verify.sh"
       },
@@ -32,6 +32,6 @@
     }
   },
   "backend": {
-    "imageid": "kubernetes-kubeadm-1node-4GB"
+    "imageid": "kubernetes-kubeadm-2nodes"
   }
 }
