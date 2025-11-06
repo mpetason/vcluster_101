@@ -1,4 +1,4 @@
-# Step 1: Install vCluster CLI and Kubectx
+# Install vCluster CLI and Kubectx
 
 ## vCluster CLI Install
 

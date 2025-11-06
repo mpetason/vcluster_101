@@ -1,3 +1,13 @@
 # Welcome to vCluster scenario
 
-In this scenario, you will install and manage a vCluster within a two-node Kubernetes cluster. Follow the steps to complete the scenario. Each step includes commands that you can copy and execute directly.
+In this scenario we are going to cover most of the Quick-Start Guide(https://www.vcluster.com/docs/vcluster/) in the vCluster docs.
+
+We will:
+- Install the vCluster CLI and Kubectx
+- Deploy a vCluster and inspect the Host Cluster/vCluster
+- Create a pod and inspect it on the Host Cluster/vCluster
+- Finish up and get ready for vCluster 102
+
+We are going to keep the intro short and then move on to more customizations and more in depth options that you can use with your vCluster in the following scenarios. The purpose of this guide is to give you an easier option to get started with vCluster, especially if you do not currently have access to a Kubernetes Cluster.
+
+Thanks for checking this guide out. We think vCluster is pretty cool and would love to hear from you if you have any feedback.

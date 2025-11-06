@@ -1,4 +1,16 @@
-# Step 2: Deploy a vCluster
+# Deploy a vCluster
+
+Let's start out by getting our bearings about where we are. We're on the host cluster and we are using the host cluster kubernetes context. We can see this by running kubectx:
+
+`kubectx`{{exec}}
+
+The context will be kubernetes-admin@kubernetes.
+
+Now let's take a look at the namespaces and CRDs on the host cluster. Since a vCluster creates a new virutal kubernetes cluster, we're going to get a brand new API endpoint with a database backing it. This means that we will have different namespaces, CRDs, and other resources that are not 1:1 with the host cluster. 
+
+`kubectl get crds`{{exec}}
+
+`kubectl get namespaces`{{exec}}
 
 Now we can deploy a vCluster. We're going to run the same command that shows up in the quickstart guide. In future scenarios we will dive into the vCluster.yaml to customize the installation.
 
@@ -8,18 +20,12 @@ This will create the vCluster. Now we can see multiple contexts after the comman
 
 `kubectx`{{exec}}
 
-Since we're still on the host cluster we can also list the namespaces to see how they will differ from the vCluster. 
+Then we can take a look at the CRDs and Namspaces that exist in the vCluster.
+
+`kubectl get crd`{{exec}}
 
 `kubectl get namespaces`{{exec}}
 
 We can also list the virtual clusters that have been created.
 
 `vcluster list`{{exec}}
-
-Time to connect to the vCluser.
-
-`vcluster connect demo --namespace demo`{{exec}}
-
-Now let's list the namespaces again to see that we are in a new Kubernetes Cluster (a virtual cluster).
-
-`kubectl get namespaces`{{exec}}
