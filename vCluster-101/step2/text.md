@@ -2,9 +2,9 @@
 
 Now we can deploy a vCluster. We're going to run the same command that shows up in the quickstart guide. In future scenarios we will dive into the vCluster.yaml to customize the installation.
 
-`vcluster create demo --namespace demo --connect=false`{{exec}}
+`vcluster create demo --namespace demo`{{exec}}
 
-This will create the vCluster with connecting and changing our context. Now we can see multiple contexts after the command finishes and the vCluster is created.
+This will create the vCluster. Now we can see multiple contexts after the command finishes and the vCluster is created.
 
 `kubectx`{{exec}}
 
