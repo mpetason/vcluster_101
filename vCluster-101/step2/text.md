@@ -1,8 +1,6 @@
 # Deploy a vCluster
 
-Let's start out by getting our bearings about where we are. We're on the host cluster and we are using the host cluster kubernetes context. We can see this by running kubectx:
-
-`kubectx`{{exec}}
+As you can see from the previous kubectx command we are using the context:
 
 The context will be kubernetes-admin@kubernetes.
 
