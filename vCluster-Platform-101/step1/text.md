@@ -1,7 +1,9 @@
 # This Scenario will use vCluster Cloud to create vCluster Platform Account where we can add a Private Node and learn a little bit about the vCluster Platform UI
 
-Head to [vCluster Cloud](https://www.vcluster.cloud)
+Head to [vCluster Cloud](https://vcluster.cloud/login)
 
-~[Scan results](../assets/vCluster-Cloud.jpeg)
+Sign up for an account with your email address.
 
-Create an Account, then 
+![Scan results](../assets/vCluster-Cloud.jpeg)
+
+
