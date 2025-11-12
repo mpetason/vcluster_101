@@ -3,7 +3,7 @@
 In this scenario we are going to cover most of the Quick-Start Guide(https://www.vcluster.com/docs/vcluster/) in the vCluster docs.
 
 We will:
-- Install the vCluster CLI and Kubectx
+- Install the vCluster CLI
 - Deploy a vCluster and inspect the Host Cluster/vCluster
 - Create a pod and inspect it on the Host Cluster/vCluster
 - Finish up and get ready for vCluster 102
