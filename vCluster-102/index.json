@@ -7,7 +7,7 @@
     },
     "steps": [
       {
-        "title": "Install vCluster CLI and Kubectx",
+        "title": "Deploy a vCluster with vCluster.yaml",
         "text": "step1/text.md",
         "verify": "step1/verify.sh"
       },
