@@ -12,6 +12,6 @@ Verify the installation by checking the vCluster version:
 
 This should output the installed version of vCluster.
 
-## Let's check out the current context
+## Let's check out the current context using Kubectx
 
 `kubectx`{{exec}}
