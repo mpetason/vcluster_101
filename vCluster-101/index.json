@@ -3,7 +3,8 @@
   "description": "Welcome to v101 - vCluster Basics! In this lab, you will learn how to create and manage virtual clusters using vCluster.",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "setup.sh"
     },
     "steps": [
       {
