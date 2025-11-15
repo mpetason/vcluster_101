@@ -21,6 +21,16 @@
         "title": "Create a Deployment in vCluster",
         "text": "step3/text.md",
         "verify": "step3/verify.sh"
+      },
+            {
+        "title": "Deploy a vCluster",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+            {
+        "title": "Deploy a vCluster",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
       }
     ],
     "finish": {
