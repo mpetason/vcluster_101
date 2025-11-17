@@ -1,6 +1,6 @@
 {
-  "title": "v101 - vCluster Basics",
-  "description": "Welcome to v101 - vCluster Basics! In this lab, you will learn how to create and manage virtual clusters using vCluster.",
+  "title": "v101 - vCluster Quickstart",
+  "description": "vCluster Quickstart companion scenario.",
   "details": {
     "intro": {
       "text": "intro.md",
@@ -18,17 +18,17 @@
         "verify": "step2/verify.sh"
       },
       {
-        "title": "Create a Deployment in vCluster",
+        "title": "Inspect the vCluster",
         "text": "step3/text.md",
         "verify": "step3/verify.sh"
       },
             {
-        "title": "Deploy a vCluster",
+        "title": "Create a Deployment",
         "text": "step4/text.md",
         "verify": "step4/verify.sh"
       },
             {
-        "title": "Deploy a vCluster",
+        "title": "Inspect the Host Cluster",
         "text": "step5/text.md",
         "verify": "step5/verify.sh"
       }

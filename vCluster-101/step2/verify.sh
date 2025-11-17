@@ -1,2 +1,2 @@
 #!/bin/bash
-vcluster list | grep -i demo &> /dev/null && echo "done"
+vcluster list | grep -i my-vcluster &> /dev/null && echo "done"

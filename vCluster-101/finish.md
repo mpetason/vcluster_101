@@ -1,9 +1,17 @@
 ### Great Job, You are a vCluster Pro!
 
-Now that you are a 101 pro, it's time to move on and learn more about the vCluster.yaml. This is where the magic happens. 
+Now that you are a vCluster 101 Pro, give it a try on your Kubernetes Cluster. 
 
-Want to sync runtimeClasses from the host cluster to the vCluster? We've got you covered. 
+We have install options on our install page:
 
-There's a lot of built in Kubernetes features that you can sync from the host cluster. There's also options that let you fake data in case you need to present worker nodes to the user without giving away too much information about where this is actually running.
+https://www.vcluster.com/install
 
-If you have any feedback, join us on Slack(slack.vcluster.com) and let us know in the #vCluster channel.
+We also have documentation that will show you how to customize your vCluster:
+
+https://www.vcluster.com/docs/vcluster/configure/what-is-vcluster-yaml/
+
+Join us on Slack if you have questions:
+
+https://slack.vcluster.com
+
+Thank you for working through our vCluster 101 Scenario!

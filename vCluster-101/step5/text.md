@@ -1,17 +1,23 @@
-Now that we have a pod running we will disconnect from the vCluster to see what it looks like on the host cluster.
+# Inspect the Host Cluster
+
+It's time to disconnect from the vCluster and see what resources are created on the Host Cluster.
 
 `vcluster disconnect`{{exec}}
 
-Let's get the namespaces so that we can find where our vCluster pods are running.
+List the namespaces so that we can find where our vCluster pods are running.
 
-`kubectl get namespace`{{exec}}
+`kubectl get namespaces`{{exec}}
 
-We can see the `demo` namespace, which is the namespace we used to create the vCluster.
+We can see the `team-x` namespace, which is the namespace we used to create the vCluster.
 
-What about if we want to see the deployment? The deployment only exists in the vCluster, the resources created by the deployment will exist on the host cluster. If we run this command we won't actually see the deployment:
+What about if we want to see the deployment? The deployment only exists in the vCluster, the resources created by the deployment (pods) will exist on the host cluster. If we run this command we will not actually see the deployment:
 
-`kubectl get deployment`{{exec}}
+`kubectl get deployment -n team-x`{{exec}}
 
 We can see the resources that are created by it, such as the Pod.
 
-`kubectl get pods -n demo`{{exec}}
+`kubectl get pods -n team-x`{{exec}}
+
+If we list everything in the namespace we can see some of the resources that back the vCluster.
+
+`kubectl get all -n team-x`{{exec}}
